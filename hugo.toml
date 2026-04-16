@@ -1,0 +1,55 @@
+baseURL = "https://bethliew.github.io/healnavi/"
+languageCode = "en"
+title = "HealNavi - Healing Tools Directory"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "Your trusted directory for meditation, sleep, anxiety relief, and wellness tools"
+  author = "BethLiew"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Meditation"
+    url = "/categories/meditation/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Sleep"
+    url = "/categories/sleep/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Anxiety"
+    url = "/categories/anxiety/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Focus"
+    url = "/categories/focus/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Breathwork"
+    url = "/categories/breathwork/"
+    weight = 6
+
+  [[menu.main]]
+    name = "Mood Tracking"
+    url = "/categories/mood/"
+    weight = 7
+
+  [[menu.main]]
+    name = "Therapy"
+    url = "/categories/therapy/"
+    weight = 8
+
+  [[menu.main]]
+    name = "Growth"
+    url = "/categories/growth/"
+    weight = 9
